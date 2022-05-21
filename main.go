@@ -16,7 +16,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 	lastname := r.FormValue("lastname")
 	address := r.FormValue("address")
 	fmt.Fprintf(w, "Name = %s\n", name)
-	fmt.Fprintf(w, "lastname = %s\n", lastname)
+	fmt.Fprintf(w, "Last Name = %s\n", lastname)
 	fmt.Fprintf(w, "Address = %s\n", address)
 }
 
